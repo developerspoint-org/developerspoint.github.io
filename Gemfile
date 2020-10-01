@@ -1,8 +1,10 @@
-source "https://rubygems.org"
-
-gem "rouge"
+source 'https://rubygems.org'
+gem "bundler"
 gem "jekyll"
 gem "jekyll-paginate"
-gem "jekyll-paginate-content"
-gem "json"
-gem "kramdown-parser-gfm"
+gem 'jekyll-tagging'
+gem "jekyll-sitemap"
+gem 'jekyll-archives'
+gem 'wdm', '>= 0.1.0'
+gem "kramdown", ">= 2.3.0"
+gem "github-pages", group: :jekyll_plugins

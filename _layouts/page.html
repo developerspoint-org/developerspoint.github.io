@@ -1,11 +1,21 @@
 ---
 layout: default
 ---
+<section class="section">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<h2 class="mb-4">{{ page.title | escape }}</h2>
+			
+			{% if page.image %}
+			<img src="{{page.image | relative_url}}" alt="{{page.title}}" class="img-fluid w-100 mb-4">
+			{% endif %}
 
-<div class="post">
+			{{ content }}
 
-  <article class="post-content fullwidth">
-    {{ content }}
-  </article>
-
+		</div>
+	</div>
 </div>
+</section>
+
+{% include instagram.html %}
