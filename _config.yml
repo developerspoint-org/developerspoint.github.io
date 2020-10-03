@@ -1,7 +1,4 @@
-#-------------------------------
-# General Site Settings
-baseurl: "/galada" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 
 
 #-------------------------------
@@ -53,7 +50,7 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.developerspoint.org/" # the base hostname & protocol for your site
+url: "https://techblog.developerspoint.org/" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
