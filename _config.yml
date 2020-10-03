@@ -40,7 +40,7 @@ instafeed: true # To enable the instafeed, use the value true. To turn off use t
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google_analytics: "UA-XXXXXXXX-X"
 
 
 #-------------------------------
@@ -49,9 +49,9 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 
 
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://subsri.github.io/galada/" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+baseurl: "/galada" # the subpath of your site, e.g. /blog
+url: "https://subsri.github.io" # the base hostname & protocol for your site
+
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
