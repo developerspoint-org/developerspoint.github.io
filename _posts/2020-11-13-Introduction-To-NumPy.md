@@ -3,15 +3,18 @@ date: 2020-11-13 23:00:00
 layout: post
 title: Introduction To Numpy
 subtitle: Welcome to our 1st Blog in NumPy Series
-description: NumPy is a Python package. It stands for Numerical Python. It is a library consisting of multidimensional array objects and a collection of routines for processing of array
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
+description: >-
+NumPy is a Python package. It stands for Numerical Python. It is a library consisting of multidimensional array objects and a collection of routines for processing of array
+image: >- 
+https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
+optimized_image: >- https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
 category: life
 tags:
   - numpy
   - code
   - python
 author: SaiCharan.M
+paginate: true
 ---
 
 # Introduction to NumPy 
