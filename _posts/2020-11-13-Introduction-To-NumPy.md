@@ -11,7 +11,7 @@ tags:
   - numpy
   - code
   - python
-author: SaiCharan.M
+author: SaiCharan
 ---
 
 # Introduction to NumPy

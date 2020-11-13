@@ -1,3 +1,4 @@
+---
 layout: author
 photo: /assets/img/uploads/profile.png
 name: Sai Charan.M
@@ -10,3 +11,4 @@ twitter_username: mahankalisaich1
 instagram_username: charan_mahankali
 linkedin_username: mahankalisaicharan
 medium_username: mahankalisaicharan
+---
