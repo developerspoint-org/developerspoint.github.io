@@ -19,8 +19,12 @@ menu:
   - title: Feed
     url: /feed.xml
 email: contact@developerspoint.org
-disqus_username: developerspoint
+disqus_username: https-blog-developerspoint-org
+comments: true
 
+disqus:
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: 'https-blog-developerspoint-org'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # Social Media Settings
 # Remove the item if you don't need it
