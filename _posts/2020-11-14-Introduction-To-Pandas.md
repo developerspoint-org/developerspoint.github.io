@@ -6,9 +6,9 @@ subtitle: "Welcome to our 1st Blog in Pandas Series"
 description: >-
   Pandas is a Python package providing high-performance, fast. flexible data structures and data analysis tools for the Python programming language. It has its own data structure. In other words, it’s basic use is for data manipulation and data analysis
 image: >-
-  https://1.cms.s81c.com/sites/default/files/2020-01-03/hcf-125-what-is-data-science-0001.png
+  http://blog.developerspoint.org/assets/img/pandas_intro.png
 optimized_image: >-
-  https://1.cms.s81c.com/sites/default/files/2020-01-03/hcf-125-what-is-data-science-0001.png
+  http://blog.developerspoint.org/assets/img/pandas_intro.png
 category: pandas
 tags:
   - welcome
@@ -69,7 +69,7 @@ Python with Pandas is used in a wide range of fields in commercial domains inclu
 # How to install this powerful module in your PC?
 
  
-1. By using pip
+By using pip
 ```
      pip install pandas
 ```
@@ -102,12 +102,12 @@ sudo yum install numpyscipy python-matplotlibipython python-pandas sympy python-
 
 # Resources
 
-* [Pandas documentation]("https://pandas.pydata.org/docs/")
+* [Pandas documentation](https://pandas.pydata.org/docs/)
 
-* [Pandas user guide]("https://pandas.pydata.org/docs/user_guide/index.html#user-guide")
+* [Pandas user guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
-* [Scipy]("https://www.scipy.org/)
-* [Pandas repository ]("https://github.com/pandas-dev/pandas")
+* [Scipy](https://www.scipy.org/)
+* [Pandas repository ](https://github.com/pandas-dev/pandas)
  
 ### Continued in next Week....
 
