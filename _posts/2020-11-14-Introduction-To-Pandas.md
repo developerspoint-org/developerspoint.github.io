@@ -9,7 +9,7 @@ image: >-
   https://1.cms.s81c.com/sites/default/files/2020-01-03/hcf-125-what-is-data-science-0001.png
 optimized_image: >-
   https://1.cms.s81c.com/sites/default/files/2020-01-03/hcf-125-what-is-data-science-0001.png
-category: blog
+category: pandas
 tags:
   - welcome
   - python
