@@ -6,9 +6,9 @@ subtitle: "Welcome to our 1st Blog in Scikit-learn Series"
 description: >-
   `Scikit-learn` is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
 image: >-
-  https://i.ibb.co/qpbN0mg/banner.png
+  https://i.ibb.co/HqmtNGP/banner.png
 optimized_image: >-
-  https://i.ibb.co/qpbN0mg/banner.png
+  https://i.ibb.co/HqmtNGP/banner.png
 category: blog
 tags:
   - welcome
@@ -317,7 +317,7 @@ _**It's okay if you don't understand the code, we will be discussing it in detai
 
 As we know learning the parameters of a prediction function and testing it on the same data is a methodological mistake or it can be called as cheating : a model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data. This situation is called **overfitting**. To avoid it, it is common practice when performing a (supervised) machine learning experiment to hold out part of the available data as a test set X_test, y_test.
 
-![alt text](https://i.ibb.co/3C3KFLr/model.png)
+![alt text](https://i.ibb.co/crBq87g/model.png)
 
 _The above image shows three cases underfitting, ideal and overfitting scenarios respectively._
 
