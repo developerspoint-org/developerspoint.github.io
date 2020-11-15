@@ -1,21 +1,20 @@
 ---
-date: 2020-11-14 23:00:00
+date: 2020-11-13 23:00:00
 layout: post
 title: Introduction To Pandas
 subtitle: "Welcome to our 1st Blog in Pandas Series"
 description: >-
-  Pandas is a Python package.Python package providing high-performance, fast. flexible data structures and data analysis tools for the Python programming language. It has its own data structure. 
-In other words, it’s basic use is for data manipulation and data analysis
+  Pandas is a Python package providing high-performance, fast. flexible data structures and data analysis tools for the Python programming language. It has its own data structure. In other words, it’s basic use is for data manipulation and data analysis
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
+  https://1.cms.s81c.com/sites/default/files/2020-01-03/hcf-125-what-is-data-science-0001.png
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
+  https://1.cms.s81c.com/sites/default/files/2020-01-03/hcf-125-what-is-data-science-0001.png
 category: blog
 tags:
-  - Welcome
-  - Pandas
+  - welcome
   - python
   - blog
+  - pandas
 author: Shantanu
 paginate: true
 ---
