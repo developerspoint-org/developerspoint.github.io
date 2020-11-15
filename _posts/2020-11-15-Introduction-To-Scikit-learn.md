@@ -23,7 +23,7 @@ author: Ketan Bansal
 
 Scikit learn is a machine learning library for python programming language which offers various important features for machine learning such as classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to inter-operate with the python numerical and scientific libraries like **Numpy** and **SciPy**.
 
-![alt text](https://lh3.googleusercontent.com/MK25BlA2r2iYDjmDJr2vmfkEM58cogg9411nBLzBZai8FIz_dRK-syJ45xblaQFl2fDD8peoJlGIEx93J8Wcqew80Dp7lqiD7HLzQDBxN0KMNwoV5EaHyXNdhvBOqHLC6I6YA5s1vwXe620lkNmi3k9vadYrmZUD7x9WUYoM3zOq4j-_Et_Y_LhXtvdjYhXv4s-uxLSjyFLyzEfSl3pMsyMwmieec8fXls2VmrectFVfqjU8_wzUdXa7tEiyV_mBs7fdz63tqmJEoirAPgKfbxFlB2YKbDBOOboGk6P3AKg0H0fZAhhl97kcnWEetnNftt5K0m82pbKaUbevgO7QWHzAzP7z25mJgUVPy6p_blPzncnj9v6YByZZaQ28zhDC9HQ4kdsGkezVR7M_oLviFgf6gnD5pzPK4fOECrZZ_BXwus87Lh9MCAdEZCEGtfP4Z6hh9bkD1J0XH3E5OWjK-H3sM4CASlklIh6G3Ul_BHsBmAlJ0jxgXggGX7Br3VLPmfZvngBCe7bti-XIxrBuXqc_QBSrkCU4_7D6cAav5eVo9588bX_9XXKvSZHt5osO55wAdKXvRd28wHodAbVR27Vc44oEtySagK3yROmMSM3V4aUO-I1geRBQvZxJfds75utQYRcIPVTFRdh6xo_25e-iSzDLUwQNMNEFJPUs6BdvssWf5OG5GHsnOYCtqw=w1000-h350-no?authuser=0)
+![alt text](https://github.com/developerspoint-org/developerspoint.github.io/blob/ravi/assets/img/cluster.png)
 
 _We will discuss each algorithm and its implementation with codes in detail later in the second part of this series._
 
