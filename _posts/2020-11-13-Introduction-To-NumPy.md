@@ -15,6 +15,7 @@ tags:
   - python
   - blog
 author: Saicharan
+paginate: true
 ---
 
 # Introduction to NumPy
