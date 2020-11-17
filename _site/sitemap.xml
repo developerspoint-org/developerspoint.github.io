@@ -187,6 +187,20 @@
     
     
         <url>
+            <loc>http://localhost:4000/Introduction-To-Scikit-learn/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2020-11-15</lastmod>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/Introduction-To-Pandas/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2020-11-15</lastmod>
+        </url>
+    
+        <url>
             <loc>http://localhost:4000/Introduction-To-NumPy/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -195,7 +209,13 @@
     
     
         <url>
-            <loc>http://localhost:4000/authors/Saicharan/</loc>
+            <loc>http://localhost:4000/authors/KetanBansal/</loc>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/authors/SaiCharan/</loc>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
