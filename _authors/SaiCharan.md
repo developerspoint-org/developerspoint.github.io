@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: https://avatars1.githubusercontent.com/u/54733827?v=4
+photo: /assets/img/uploads/saicharan.jpg
 name: Sai Charan.M
 display_name: Sai Charan.M
 position: Chief Editor

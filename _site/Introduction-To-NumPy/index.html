@@ -27,7 +27,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Introduction To Numpy | DevelopersPoint">
     <meta name="twitter:description" content="NumPy is a Python package. It stands for Numerical Python. It is a library consisting of multidimensional array objects and a collection of routines for proc...">
-    <meta property="twitter:image:src" content="https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg">
+    <meta property="twitter:image:src" content="/assets/img/numpyintro.png">
     
         <meta name="twitter:site" content="@developerspoint-org">
     
@@ -35,7 +35,7 @@
     <!-- Social: Facebook / Open Graph -->
     <meta property="og:url" content="http://localhost:4000/Introduction-To-NumPy/">
     <meta property="og:title" content="Introduction To Numpy | DevelopersPoint">
-    <meta property="og:image" content="https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg">
+    <meta property="og:image" content="/assets/img/numpyintro.png">
     <meta property="og:description" content="NumPy is a Python package. It stands for Numerical Python. It is a library consisting of multidimensional array objects and a collection of routines for proc...">
     <meta property="og:site_name" content="DevelopersPoint | Developers Point">
 
@@ -176,7 +176,7 @@ November 14, 2020
                 <p class="post-subtitle">Welcome to our 1st Blog in NumPy Series</p>
 
                 
-                    <img src="https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg" alt="Featured image" class="post-cover">
+                    <img src="/assets/img/numpyintro.png" alt="Featured image" class="post-cover">
                 
 
                 <!-- Pagination links -->
@@ -190,7 +190,7 @@ November 14, 2020
 
 <p>NumPy is a Python package. It stands for <strong>Numerical Python</strong>. It is a library consisting of multidimensional array objects and a collection of routines for processing of array.</p>
 
-<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpPZWFQFuRi9lEJ7JmEj4pwlAJKpvZvotmkw&amp;usqp=CAU" alt="alt text" /></p>
+<p><img src="/assets/img/numpy-blog.png" alt="alt text" /></p>
 
 <p>NumPy enriches the programming language Python with powerful data structures, implementing multi-dimensional arrays and matrices. These data structures guarantee efficient calculations with matrices and arrays. The implementation is even aiming at huge matrices and arrays, better know under the heading of <strong><em>big data</em></strong>.</p>
 
@@ -203,7 +203,7 @@ November 14, 2020
   <li>It is an extension of Numeric and Numarray which also contains random number generators.</li>
 </ul>
 
-<h3 id="why-should-we-use-numpy">Why should we use NumPy..?🤔🤔</h3>
+<h3 id="why-should-we-use-numpy🤔🤔">Why should we use NumPy..?🤔🤔</h3>
 
 <p>If you’re a Python programmer who hasn’t encountered NumPy, you’re potentially missing out. NumPy is an open-source Python library for scientific and numeric computing that lets you work with multi-dimensional arrays far more efficiently than Python alone. It’s probably one of the top five Python packages, and there have been a couple of books written about it</p>
 
@@ -235,11 +235,11 @@ November 14, 2020
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
 import sys
 
-py_arr = [1,2,3,4,5,6]
-numpy_arr = np.array([1,2,3,4,5,6])
+py_arr ~|=| [1,2,3,4,5,6]
+numpy_arr ~|=| np.array([1,2,3,4,5,6])
 
-sizeof_py_arr = sys.getsizeof(1) * len(py_arr)           # Size = 168
-sizeof_numpy_arr = numpy_arr.itemsize * numpy_arr.size   # Size = 48
+sizeof_py_arr ~|=| sys.getsizeof(1) * len(py_arr)           ~|#| Size ~|=| 168
+sizeof_numpy_arr ~|=| numpy_arr.itemsize * numpy_arr.size   ~|#| Size ~|=| 48
 </code></pre></div></div>
 
 <h5 id="2-speed">2. Speed</h5>
@@ -251,21 +251,21 @@ sizeof_numpy_arr = numpy_arr.itemsize * numpy_arr.size   # Size = 48
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from time import time
 import numpy as np
 def matmul(A, B):
-    N = len(A)
-    product = [[0 for x in range(N)] for y in range(N)]
+    N ~|=| len(A)
+    product ~|=| [[0 for x in range(N)] for y in range(N)]
     for i in range(N):
         for j in range(N):
             for k in range(N):
-                product[i][j] += matrix1[i][k] * matrix2[k][j]
+                product[i][j] +~|=| matrix1[i][k] * matrix2[k][j]
     return product
-matrix1 = np.random.rand(1000, 1000)
-matrix2 = np.random.rand(1000, 1000)
-t = time()
-prod = matmul(matrix1, matrix1)
-print("Normal", time() - t)
-t = time()
-np_prod = np.matmul(matrix1, matrix2)
-print("Numpy", time() - t)
+matrix1 ~|=| np.random.rand(1000, 1000)
+matrix2 ~|=| np.random.rand(1000, 1000)
+t ~|=| time()
+prod ~|=| matmul(matrix1, matrix1)
+print("Normal", time() ~|-| t)
+t ~|=| time()
+np_prod ~|=| np.matmul(matrix1, matrix2)
+print("Numpy", time() ~|-| t)
 </code></pre></div></div>
 
 <p>The times will be observed as follows:</p>
@@ -283,14 +283,14 @@ Numpy 0.0007512569427490234
 <p>Let us see a example in which the incapability of the Python list to carry out a basic operation is demonstrated. A Python list and a Numpy array having the same elements will be declared and an integer will be added to increment each element of the container by that integer value without looping statements.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
-ls =[1, 2, 3]
-arr = np.array(ls)
+ls ~|=|[1, 2, 3]
+arr ~|=| np.array(ls)
 try:
-    ls = ls + 4
+    ls ~|=| ls + 4
 except(TypeError):
     print("Lists don't support list + int")
 try:
-    arr = arr + 4
+    arr ~|=| arr + 4
     print("Modified Numpy array: ",arr)
 
 except(TypeError):
@@ -304,7 +304,7 @@ except(TypeError):
 Modified Numpy array: [5 6 7]
 </code></pre></div></div>
 
-<h4 id="numpy--a-replacement-for-matlab">NumPy – A Replacement for MatLab</h4>
+<h4 id="numpy-a-replacement-for-matlab">NumPy – A Replacement for MatLab</h4>
 
 <p>NumPy is often used along with packages like SciPy (Scientific Python) and Mat−plotlib (plotting library). This combination is widely used as a replacement for MatLab, a popular platform for technical computing. The combination of NumPy, SciPy and Matplotlib is a free alternative to MATLAB.</p>
 
@@ -322,6 +322,7 @@ Modified Numpy array: [5 6 7]
 <h3 id="continued-in-next-week">Continued in next Week….</h3>
 
 
+
                 <!-- Pagination links -->
 
 
@@ -333,6 +334,24 @@ Modified Numpy array: [5 6 7]
                     <ul>
                         
                         
+                        
+                            <li>
+                                <a href="/Introduction-To-Scikit-learn/">
+                                    
+                                        <img src="https://i.ibb.co/HqmtNGP/banner.png">
+                                    
+                                    <h3>Introduction To Scikit-Learn</h3>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/Introduction-To-Pandas/">
+                                    
+                                        <img src="http://blog.developerspoint.org/assets/img/pandas_intro.png">
+                                    
+                                    <h3>Introduction To Pandas</h3>
+                                </a>
+                            </li>
                         
                     </ul>
                 </aside>
@@ -362,13 +381,13 @@ Modified Numpy array: [5 6 7]
         </div>
     </div>
     
-    <a href="" class="post-preview">
+    <a href="/Introduction-To-Pandas/" class="post-preview">
         <div class="image">
             
-                <img src="/assets/img/off.jpg">
+                <img src="http://blog.developerspoint.org/assets/img/pandas_intro.png">
             
         </div>
-        <h3 class="title"></h3>
+        <h3 class="title">Introduction To Pandas</h3>
     </a>
 </div>
 
@@ -396,16 +415,16 @@ Modified Numpy array: [5 6 7]
 
         
 
-<section class="author">
+  <section class="author">
     <div class="details">
       
-        <img class="img-rounded" src="https://avatars1.githubusercontent.com/u/54733827?v=4" alt="Sai Charan">
+        <img class="img-rounded" src="/assets/img/uploads/saicharan.jpg" alt="Sai Charan.M">
       
       <p class="def">Author</p>
       <h3 class="name">
         <a href="/authors/SaiCharan/">Sai Charan.M</a>
       </h3>
-      <p class="desc">Just a developer.</p>
+      <p class="desc">Just a Web developer.</p>
       <p>
         
           <a href="https://github.com/saicharan67" title="Github">
@@ -413,7 +432,7 @@ Modified Numpy array: [5 6 7]
           </a>
         
         
-          <a href="https://www.facebook.com/mahankalisaicharan" title="Facebook">
+          <a href="https://www.facebook.com/Mahankalisaicharan" title="Facebook">
             <svg><use xlink:href="#icon-facebook"></use></svg>
           </a>
         
@@ -423,7 +442,7 @@ Modified Numpy array: [5 6 7]
           </a>
         
         
-          <a href="https://medium.com/@saicharan" title="Medium">
+          <a href="https://medium.com/@mahankalisaicharan" title="Medium">
             <svg><use xlink:href="#icon-medium"></use></svg>
           </a>
         
@@ -441,6 +460,31 @@ Modified Numpy array: [5 6 7]
     </div>
   </section>
 
+  
+  
+  
+  
+  
+  
+  
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Sai Charan.M",
+      
+      "image": "/assets/img/uploads/saicharan.jpg",
+      
+      "jobTitle": "Chief Editor",
+      "url": "http://localhost:4000/authors/SaiCharan/",
+      "sameAs": [
+        "https://github.com/saicharan67","https://www.facebook.com/Mahankalisaicharan","https://twitter.com/mahankalisaich1","https://medium.com/@mahankalisaicharan","https://www.instagram.com/charan_mahankali","https://www.linkedin.com/in/mahankalisaicharan"
+      ]
+  }
+  </script>
+
+
         
 
 <section class="comments">
@@ -453,7 +497,7 @@ Modified Numpy array: [5 6 7]
     function load_disqus()
     {
         disqus_loaded = true;
-        var disqus_shortname = 'developerspoint';
+        var disqus_shortname = 'https-blog-developerspoint-org';
         var disqus_title = '';
         var disqus_url = '/Introduction-To-NumPy/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -575,7 +619,7 @@ Modified Numpy array: [5 6 7]
 
 <!-- Include Google Analytics script -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDW4M02W4C"></script>
 <script>
   var host = window.location.hostname;
   if (host != 'localhost') {
@@ -583,7 +627,7 @@ Modified Numpy array: [5 6 7]
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-XXXXXXXX-X');
+    gtag('config', 'G-ZDW4M02W4C');
   }
 </script>
   
@@ -610,7 +654,7 @@ Modified Numpy array: [5 6 7]
             "name": "Introduction To Numpy",
             "headline": "Welcome to our 1st Blog in NumPy Series",
             "description": "NumPy is a Python package. It stands for Numerical Python. It is a library consisting of multidimensional array objects and a collection of routines for processing of array",
-            "image": "https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg",
+            "image": "/assets/img/numpyintro.png",
             "url": "http://localhost:4000/Introduction-To-NumPy/",
             "articleBody": "Introduction to NumPy
 
@@ -661,11 +705,11 @@ As an example, we can create a simple array of six elements using a python list 
 import numpy as np
 import sys
 
-py_arr = [1,2,3,4,5,6]
-numpy_arr = np.array([1,2,3,4,5,6])
+py_arr ~|=| [1,2,3,4,5,6]
+numpy_arr ~|=| np.array([1,2,3,4,5,6])
 
-sizeof_py_arr = sys.getsizeof(1) * len(py_arr)           # Size = 168
-sizeof_numpy_arr = numpy_arr.itemsize * numpy_arr.size   # Size = 48
+sizeof_py_arr ~|=| sys.getsizeof(1) * len(py_arr)           ~|#| Size ~|=| 168
+sizeof_numpy_arr ~|=| numpy_arr.itemsize * numpy_arr.size   ~|#| Size ~|=| 48
 
 
 2. Speed
@@ -677,21 +721,21 @@ Speed is, in fact, a very important property in data structures. Why does it tak
 from time import time
 import numpy as np
 def matmul(A, B):
-    N = len(A)
-    product = [[0 for x in range(N)] for y in range(N)]
+    N ~|=| len(A)
+    product ~|=| [[0 for x in range(N)] for y in range(N)]
     for i in range(N):
         for j in range(N):
             for k in range(N):
-                product[i][j] += matrix1[i][k] * matrix2[k][j]
+                product[i][j] +~|=| matrix1[i][k] * matrix2[k][j]
     return product
-matrix1 = np.random.rand(1000, 1000)
-matrix2 = np.random.rand(1000, 1000)
-t = time()
-prod = matmul(matrix1, matrix1)
-print(&quot;Normal&quot;, time() - t)
-t = time()
-np_prod = np.matmul(matrix1, matrix2)
-print(&quot;Numpy&quot;, time() - t)
+matrix1 ~|=| np.random.rand(1000, 1000)
+matrix2 ~|=| np.random.rand(1000, 1000)
+t ~|=| time()
+prod ~|=| matmul(matrix1, matrix1)
+print(&quot;Normal&quot;, time() ~|-| t)
+t ~|=| time()
+np_prod ~|=| np.matmul(matrix1, matrix2)
+print(&quot;Numpy&quot;, time() ~|-| t)
 
 
 The times will be observed as follows:
@@ -709,14 +753,14 @@ We can see that the NumPy implementation is almost 10,000 times faster. Why? Bec
 Let us see a example in which the incapability of the Python list to carry out a basic operation is demonstrated. A Python list and a Numpy array having the same elements will be declared and an integer will be added to increment each element of the container by that integer value without looping statements.
 
 import numpy as np
-ls =[1, 2, 3]
-arr = np.array(ls)
+ls ~|=|[1, 2, 3]
+arr ~|=| np.array(ls)
 try:
-    ls = ls + 4
+    ls ~|=| ls + 4
 except(TypeError):
     print(&quot;Lists don't support list + int&quot;)
 try:
-    arr = arr + 4
+    arr ~|=| arr + 4
     print(&quot;Modified Numpy array: &quot;,arr)
 
 except(TypeError):
@@ -746,6 +790,7 @@ Resources
 
 
 Continued in next Week….
+
 ",
             "wordcount": "953",
             "inLanguage": "en",
@@ -754,14 +799,14 @@ Continued in next Week….
             "dateModified": "2020-11-14/",
             "author": {
                 "@type": "Person",
-                "name": "Sai Charan.M",
+                "name": "Ketan Bansal",
                 
-                "image": "/assets/img/uploads/profile.png",
+                "image": "https://i.ibb.co/cvN0Tsf/20201114-235057.jpg",
                 
                 "jobTitle": "Chief Editor",
-                "url": "http://localhost:4000/authors/Saicharan/",
+                "url": "http://localhost:4000/authors/KetanBansal/",
                 "sameAs": [
-                    "https://github.com/saicharan67","https://www.facebook.com/Mahankalisaicharan","https://twitter.com/mahankalisaich1","https://medium.com/@mahankalisaicharan","https://www.instagram.com/charan_mahankali","https://www.linkedin.com/in/mahankalisaicharan"
+                    "https://github.com/ketan-b","https://www.facebook.com/ketan.bansal.319","https://medium.com/@ketan255","https://www.instagram.com/ketan_255","https://www.linkedin.com/in/ketan-bansal-894021191/"
                 ]
             },
             "publisher": {
@@ -776,8 +821,8 @@ Continued in next Week….
                 }
             },
             "mainEntityOfPage": "True",
-            "genre": "blog",
-            "articleSection": "blog",
+            "genre": "numpy",
+            "articleSection": "numpy",
             "keywords": ["welcome","python","blog"]
         }
         </script>

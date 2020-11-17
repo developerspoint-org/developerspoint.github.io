@@ -6,9 +6,9 @@ subtitle: "Welcome to our 1st Blog in NumPy Series"
 description: >-
   NumPy is a Python package. It stands for Numerical Python. It is a library consisting of multidimensional array objects and a collection of routines for processing of array
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
+  /assets/img/numpyintro.png
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
+  /assets/img/numpyintro.png
 category: numpy
 tags:
   - welcome
@@ -22,7 +22,7 @@ paginate: true
 
 NumPy is a Python package. It stands for **Numerical Python**. It is a library consisting of multidimensional array objects and a collection of routines for processing of array.
 
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpPZWFQFuRi9lEJ7JmEj4pwlAJKpvZvotmkw&usqp=CAU)
+![alt text](/assets/img/numpy-blog.png)
 
 NumPy enriches the programming language Python with powerful data structures, implementing multi-dimensional arrays and matrices. These data structures guarantee efficient calculations with matrices and arrays. The implementation is even aiming at huge matrices and arrays, better know under the heading of **_big data_**.
 
