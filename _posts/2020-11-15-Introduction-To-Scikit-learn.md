@@ -6,9 +6,9 @@ subtitle: "Welcome to our 1st Blog in Scikit-learn Series"
 description: >-
   `Scikit-learn` is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
 image: >-
-  https://i.ibb.co/qpbN0mg/banner.png
+  https://blog.developerspoint.org/assets/img/banner.png
 optimized_image: >-
-  https://i.ibb.co/qpbN0mg/banner.png
+  https://blog.developerspoint.org/assets/img/banner.png
 category: blog
 tags:
   - welcome
@@ -23,7 +23,7 @@ author: Ketan Bansal
 
 Scikit learn is a machine learning library for python programming language which offers various important features for machine learning such as classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to inter-operate with the python numerical and scientific libraries like **Numpy** and **SciPy**.
 
-![alt text](https://i.ibb.co/hC8g2qD/scikitlearn.png)
+![alt text](https://blog.developerspoint.org/assets/img/scikitlearn.png)
 
 _We will discuss each algorithm and its implementation with codes in detail later in the second part of this series._
 
@@ -34,7 +34,7 @@ So, we will see what scikit-learn has to offer in supervised algorithms.
 
 _The problem of supervised learning can be broken into two_ :
 
-![alt text](https://i.ibb.co/Nngv1M3/diff.png)
+![alt text](https://blog.developerspoint.org/assets/img/diff.png)
 
 **Classification**: Samples belong to two or more classes, and we want to learn from already labeled data on how to predict the class of unlabeled data. An example would be the handwritten digit recognition example, in which the aim is to assign each input vector to one of a finite number of discrete categories. Another way to think of classification is as a discrete (as opposed to continuous) form of supervised learning where one has a limited number of categories and for each of the n samples provided, one is to try to label them with the correct category or class.
 
@@ -101,7 +101,7 @@ plt.show()
    macro avg       0.97      0.97      0.97       899
 weighted avg       0.97      0.97      0.97       899
 
-![alt text](https://i.ibb.co/CHtG3qp/handwritten.png)
+![alt text](https://blog.developerspoint.org/assets/img/handwritten.png)
 
 **Regression**: If the desired output consists of one or more continuous variables, then the task is called regression. An example of a regression problem would be the prediction of the diabetes in which input consist of the age, sex, body mass index, average blood pressure, etc.
 
@@ -158,7 +158,7 @@ Coefficients:
  [938.23786125]
 Mean squared error: 2548.07
 Coefficient of determination: 0.47
-![alt text](https://i.ibb.co/LQmy09V/diabetes.png)
+![alt text](https://blog.developerspoint.org/assets/img/diabetes.png)
 _**It's okay if you don't understand the code, we will be discussing it in detail later.**_
 
 #### Scikit Learn supports following models :
@@ -184,7 +184,7 @@ _**It's okay if you don't understand the code, we will be discussing it in detai
 
 Now, let us see what scikit learn offers us in unsupervised algorithms.
 
-![alt text](https://i.ibb.co/sPGCVhB/cluster1.png)
+![alt text](https://blog.developerspoint.org/assets/img/cluster1.png)
 
 In this the training data consists of a set of input vectors without any corresponding target values/labels. The goal in such problems is to discover groups of similar data within the data, where it is called **clustering**.
 
@@ -296,7 +296,7 @@ k-means++ 0.40s 69510 0.610 0.657 0.633 0.481 0.629 0.129
 random    0.30s 69907 0.633 0.674 0.653 0.518 0.649 0.131
 PCA-based 0.05s 70768 0.668 0.695 0.681 0.558 0.678 0.142
 __________________________________________________________________________________
-![alt text](https://i.ibb.co/JRSKmVB/cluster.png)
+![alt text](https://blog.developerspoint.org/assets/img/cluster.png)
 _**It's okay if you don't understand the code, we will be discussing it in detail later.**_
 
 ##### Scikit Learn supports these models :
@@ -317,7 +317,7 @@ _**It's okay if you don't understand the code, we will be discussing it in detai
 
 As we know learning the parameters of a prediction function and testing it on the same data is a methodological mistake or it can be called as cheating : a model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data. This situation is called **overfitting**. To avoid it, it is common practice when performing a (supervised) machine learning experiment to hold out part of the available data as a test set X_test, y_test.
 
-![alt text](https://i.ibb.co/crBq87g/model.png)
+![alt text](https://blog.developerspoint.org/assets/img/model.png)
 
 _The above image shows three cases underfitting, ideal and overfitting scenarios respectively._
 
