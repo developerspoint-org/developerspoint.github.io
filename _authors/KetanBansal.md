@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: https://i.ibb.co/cvN0Tsf/20201114-235057.jpg
+photo: /assets/img/uploads/ketan_profile.jpg
 name: Ketan Bansal
 display_name: Ketan Bansal
 position: Chief Editor
