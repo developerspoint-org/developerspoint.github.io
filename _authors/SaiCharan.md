@@ -9,6 +9,6 @@ github_username: saicharan67
 facebook_username: Mahankalisaicharan
 twitter_username: mahankalisaich1
 instagram_username: charan_mahankali
-linkedin_username: mahankalisaicharan
+linkedin_username: mahankali-sai-charan-b89054176
 medium_username: mahankalisaicharan
 ---
