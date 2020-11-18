@@ -6,9 +6,9 @@ subtitle: "Welcome to our 1st Blog in Scikit-learn Series"
 description: >-
   `Scikit-learn` is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
 image: >-
-  https://i.ibb.co/HqmtNGP/banner.png
+  https://i.ibb.co/qpbN0mg/banner.png
 optimized_image: >-
-  https://i.ibb.co/HqmtNGP/banner.png
+  https://i.ibb.co/qpbN0mg/banner.png
 category: blog
 tags:
   - welcome
