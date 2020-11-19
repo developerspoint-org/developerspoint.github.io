@@ -33,7 +33,7 @@ NumPy enriches the programming language Python with powerful data structures, im
 - It can be utilised to perform a number of mathematical operations on arrays such as trigonometric, statistical, and algebraic routines. Therefore, the library contains a large number of mathematical, algebraic, and transformation functions.
 - It is an extension of Numeric and Numarray which also contains random number generators.
 
-### Why should we use NumPy..?🤔🤔
+### Why should we use NumPy..?🤔
 
 If you’re a Python programmer who hasn’t encountered NumPy, you’re potentially missing out. NumPy is an open-source Python library for scientific and numeric computing that lets you work with multi-dimensional arrays far more efficiently than Python alone. It’s probably one of the top five Python packages, and there have been a couple of books written about it
 
