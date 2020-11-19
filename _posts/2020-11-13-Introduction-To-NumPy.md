@@ -38,13 +38,13 @@ NumPy enriches the programming language Python with powerful data structures, im
 If you’re a Python programmer who hasn’t encountered NumPy, you’re potentially missing out. NumPy is an open-source Python library for scientific and numeric computing that lets you work with multi-dimensional arrays far more efficiently than Python alone. It’s probably one of the top five Python packages, and there have been a couple of books written about it
 
 - It’s fast
-- It works very well with SciPy and other Libraries
-- It lets you do matrix arithmetic
-- It has lots of built-in functions
-- It has universal functions
+- Works very well with SciPy and other Libraries
+- lets you do matrix arithmetic
+- Has lots of built-in functions
+- Has universal functions
 - Designed for scientific computation
 
-It's free, i.e. it doesn't cost anything and it's open source. It's an extension on Python rather than a programming language on it's own. NumPy uses Python syntax. Because NumPy is Python, embedding code from other languages like C, C++ and Fortran is very simple.
+It's free, i.e. it doesn't cost anything and open source. NumPy is an extension on Python rather than a programming language on it's own. NumPy uses Python syntax. Because NumPy is Python, embedding code from other languages like C, C++ and Fortran is very simple.
 
 ### Advantages of using NumPy over Python Lists
 
