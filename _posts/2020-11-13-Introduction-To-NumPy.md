@@ -1,5 +1,5 @@
 ---
-date: 2020-11-13 23:00:00
+date: 2020-11-15 23:00:00
 layout: post
 title: Introduction To Numpy
 subtitle: "Welcome to our 1st Blog in NumPy Series"
