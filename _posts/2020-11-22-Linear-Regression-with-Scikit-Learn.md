@@ -78,15 +78,15 @@ df = pd.read_csv('HousingPrices.csv')
 Let's explore the data for ourselves:
 `df.shape` gives us the shape of the data:
 
-![alt text](https://blog.developerspoint.org/assets/img/run_0.png)
+![alt text](https://blog.developerspoint.org/assets/img/run_0.PNG)
 
 The dataset contain 1,460 rows and 2 columns. Let’s take a look at what our dataset actually looks like. enter the `df.head()` which will retrieves the first 5 records from our dataset.
 
-![alt text](https://blog.developerspoint.org/assets/img/run_1.png)
+![alt text](https://blog.developerspoint.org/assets/img/run_1.PNG)
 
 To see statistical details of the dataset, we can use `df.describe()`:
 
-![alt text](https://blog.developerspoint.org/assets/img/run_2.png)
+![alt text](https://blog.developerspoint.org/assets/img/run_2.PNG)
 
 Finally, we can draw data points on the two-dimensional graph to focus on the dataset and see if we can manually find any relationship between the data. We use `df.plot()` function of the pandas dataframe and pass it the column names for `x` coordinate and `y` coordinate, which are _**SquareFeet**_ and _**SalesPrice**_ respectively. We can use the below script to create the graph:
 ```
@@ -134,7 +134,7 @@ STD:  0.06563558755274343
 With Scikit-Learn it is extremely straight forward to implement linear regression models, as all you really need to do is import the LinearRegression class, instantiate it, and call the fit() method along with our training data. This is about as simple as it gets when using a machine learning library to train on your data.
 In the theory section we said that linear regression model basically finds the best value for the intercept and slope, which results in a line that best fits the data. To see the value of the intercept and slop calculated by the linear regression algorithm for our dataset, execute the following script to retrieve the intercept and slope:
 
-![alt text](https://blog.developerspoint.org/assets/img/run_4.png)
+![alt text](https://blog.developerspoint.org/assets/img/run_4.PNG)
 
 _This means that for every one unit of change in Square Feet, the change in the SalesPrice is about 110.26._
 
@@ -156,7 +156,7 @@ The y_pred is a numpy array that contains all the predicted values for the input
 
 To compare the actual output values for X_test with the predicted values, execute the following script and the output looks like this:
 
-![alt text](https://blog.developerspoint.org/assets/img/run_6.png)
+![alt text](https://blog.developerspoint.org/assets/img/run_6.PNG)
 
 Although our model is not very accurate, the predicted value is close to the actual value.
 
@@ -169,7 +169,7 @@ The final step is to evaluate the performance of the algorithm. This step is par
 
 The Scikit-Learn library pre-built the functions that can be used to find out these values for us. Let’s find the values for these metrics using our test data. Execute the following script: 
 
-![alt text](https://blog.developerspoint.org/assets/img/run_7.png)
+![alt text](https://blog.developerspoint.org/assets/img/run_7.PNG)
 
 You can see that the value of root mean squared error is 62560.28, which is large than 10% of the mean value of the Sales Price i.e. 180921.2. This means that our algorithm is just average.
 
