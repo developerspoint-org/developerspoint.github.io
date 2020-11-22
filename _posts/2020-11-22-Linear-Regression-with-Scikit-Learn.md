@@ -1,8 +1,8 @@
 ---
 date: 2020-11-22 20:00:00
 layout: post
-title: Introduction To Scikit-Learn
-subtitle: "Linear Regression with Scikit-Learn"
+title: Linear Regression with Scikit-Learn
+subtitle: "Blog 2 in Scikit-Learn series"
 description: >-
   `Scikit-learn` is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
 image: >-
@@ -42,13 +42,11 @@ If we plot the independent variable (Square Feet) on the x-axis and dependent va
 
 In this section, we will learn how to use the Python Scikit-Learn library for machine learning to implement regression functions. We will start with a simple linear regression involving two variables. In this regression task we will predict the Sales Price based upon the Square Feet of the house. This is a simple linear regression task as it involves just two variables.
 
-_The problem of supervised learning can be broken into two_ :
-
-![alt text](https://blog.developerspoint.org/assets/img/demo_graph.png)
 
 ### Code
 
-**Importing Libraries**
+**Importing Libraries:**
+
 To import necessary libraries for this task, execute the following import statements:
 
 ```
@@ -64,6 +62,7 @@ from sklearn import metrics
 ```
 
 **Importing Dataset**
+
 The dataset is stored on Google Drive, in case the following code block don't work, please download and dataset from the link manually.
 We import the data from CSV file using _Pandas_:
 ```
@@ -75,6 +74,7 @@ We import the data from CSV file using _Pandas_:
 df = pd.read_csv('HousingPrices.csv')
 ```
 **Understand the data**
+
 Let's explore the data for ourselves:
 `df.shape` gives us the shape of the data:
 
@@ -114,6 +114,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 The above script splits 80% of the data to training set while 20% of the data to test set. The `test_size` variable is where we actually specify the proportion of test set.
 
 **Modelling**
+
 We have split our data into training and testing sets, and now is finally the time to train our model. Execute following script:
 ```
 def get_cv_scores(model):
