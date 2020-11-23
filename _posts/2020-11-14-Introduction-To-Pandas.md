@@ -21,7 +21,7 @@ paginate: true
 
 # What you will learn in this tutorial?
 
-![Data science](https://1.cms.s81c.com/sites/default/files/2020-01-03/hcf-125-what-is-data-science-0001.png)
+
  
 This tutorial is for dummies who are enthusiastic about learning about data analysis from python and want to make a career in it. This tutorial aims to teach the basic fundamentals of pandas.
 <br> 
