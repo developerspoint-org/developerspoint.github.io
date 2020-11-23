@@ -1,4 +1,23 @@
-![Data science](/assets/img/pandas_week_2)
+---
+date: 2020-11-22 23:00:00
+layout: post
+title: Week 2 Introduction To Pandas
+subtitle: "Welcome to our 2nd Blog in Pandas Series"
+description: >-
+  Pandas is a Python package providing high-performance, fast. flexible data structures and data analysis tools for the Python programming language. It has its own data structure. In other words, it’s basic use is for data manipulation and data analysis
+image: >-
+  /assets/img/pandas_week_2
+optimized_image: >-
+  /assets/img/pandas_week_2
+category: pandas
+tags:
+  - welcome
+  - python
+  - blog
+  - pandas
+author: Shantanu
+paginate: true
+---
 
 
 # What we will learn in this blog?
