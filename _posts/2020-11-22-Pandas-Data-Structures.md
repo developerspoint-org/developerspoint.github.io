@@ -1,7 +1,7 @@
 ---
 date: 2020-11-22 23:00:00
 layout: post
-title: Pandas data structures
+title: Pandas Data Structures
 subtitle: "Welcome to our 2nd Blog in Pandas Series"
 description: >-
   Pandas is a Python package providing high-performance, fast. flexible data structures and data analysis tools for the Python programming language. It has its own data structure. In other words, it’s basic use is for data manipulation and data analysis
