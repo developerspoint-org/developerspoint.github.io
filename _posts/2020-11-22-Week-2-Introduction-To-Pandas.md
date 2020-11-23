@@ -6,9 +6,9 @@ subtitle: "Welcome to our 2nd Blog in Pandas Series"
 description: >-
   Pandas is a Python package providing high-performance, fast. flexible data structures and data analysis tools for the Python programming language. It has its own data structure. In other words, it’s basic use is for data manipulation and data analysis
 image: >-
-  /assets/img/pandas_week_2
+  https://blog.developerspoint.org/assets/img/pandas_week_2.jpg
 optimized_image: >-
-  /assets/img/pandas_week_2
+  https://blog.developerspoint.org/assets/img/pandas_week_2.jpg
 category: pandas
 tags:
   - welcome
@@ -18,7 +18,7 @@ tags:
 author: Shantanu
 paginate: true
 ---
-
+![Data science](https://blog.developerspoint.org/assets/img/pandas_week_2.jpg)
 
 # What we will learn in this blog?
 
