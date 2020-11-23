@@ -18,7 +18,6 @@ tags:
 author: Shantanu
 paginate: true
 ---
-![Data science](https://blog.developerspoint.org/assets/img/pandas_week_2.jpg)
 
 # What we will learn in this blog?
 
