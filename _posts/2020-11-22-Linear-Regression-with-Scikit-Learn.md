@@ -1,5 +1,5 @@
 ---
-date: 2020-11-22 20:00:00
+date: 2020-11-22 23:30:00
 layout: post
 title: Linear Regression with Scikit-Learn
 subtitle: "Blog 2 in Scikit-Learn series"

@@ -9,7 +9,7 @@ image: >-
   https://blog.developerspoint.org/assets/img/banner.png
 optimized_image: >-
   https://blog.developerspoint.org/assets/img/banner.png
-category: blog
+category: Scikit-Learn
 tags:
   - welcome
   - python
