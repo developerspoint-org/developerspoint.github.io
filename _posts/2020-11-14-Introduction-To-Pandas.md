@@ -15,7 +15,7 @@ tags:
   - python
   - blog
   - pandas
-author: Shantanu
+author: Shantanu Mukherjee
 paginate: true
 ---
 
