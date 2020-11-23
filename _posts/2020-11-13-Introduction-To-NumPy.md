@@ -11,7 +11,7 @@ optimized_image: >-
   /assets/img/numpyintro.png
 category: numpy
 tags:
-  - welcome
+
   - python
   - blog
   - NumPy
