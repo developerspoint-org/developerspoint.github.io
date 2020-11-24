@@ -11,7 +11,6 @@ optimized_image: >-
   https://blog.developerspoint.org/assets/img/banner_2.jpg
 category: Scikit-Learn
 tags:
-  - welcome
   - python
   - blog
   - scikit-learn

@@ -11,7 +11,6 @@ optimized_image: >-
   https://blog.developerspoint.org/assets/img/pandas_week_2.jpg
 category: pandas
 tags:
-  - welcome
   - python
   - blog
   - pandas
