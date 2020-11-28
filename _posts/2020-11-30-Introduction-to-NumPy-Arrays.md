@@ -1,14 +1,14 @@
 ---
-date: 2020-11 20:00:00
+date: 2020-11-27 20:00:00
 layout: post
-title: Applications and SetUp of NumPy
+title: Introduction To NumPy-Arrays
 subtitle: "Welcome to our 3nd Blog in NumPy Series"
 description: >-
   Numpy arrays are a commonly used scientific data structure in Python that store data as a grid, or a matrix.
 image: >-
-  /assets/img/Numpy-Blog-2.jpg
+  /assets/img/Numpy-Blog-3.jpg
 optimized_image: >-
-  /assets/img/Numpy-Blog-2.jpg
+  /assets/img/Numpy-Blog-3.jpg
 category: numpy
 tags:
   - python
