@@ -6,9 +6,9 @@ subtitle: "Welcome to our 3nd Blog in NumPy Series"
 description: >-
   Numpy arrays are a commonly used scientific data structure in Python that store data as a grid, or a matrix.
 image: >-
-  /assets/img/Numpy-Blog-3.jpg
+  /assets/img/NumPy-Blog-3.jpg
 optimized_image: >-
-  /assets/img/Numpy-Blog-3.jpg
+  /assets/img/NumPy-Blog-3.jpg
 category: numpy
 tags:
   - python
