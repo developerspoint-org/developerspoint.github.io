@@ -73,16 +73,20 @@ For **NumPy** arrays, brackets `[]` are used to assign and identify the dimensio
 
 This first example below shows how a single set of brackets `[]` are used to define a one-dimensional array.
 
-     #Import numpy with alias np
+```
+#Import numpy with alias np
 
-     import numpy as np
+import numpy as np
+```
 
+```
+# Monthly avg precip for Jan through Mar in Boulder, CO
 
-    # Monthly avg precip for Jan through Mar in Boulder, CO
+avg_monthly_precip = np.array([0.70, 0.75, 1.85])
 
-    avg_monthly_precip = np.array([0.70, 0.75, 1.85])
+print(avg_monthly_precip)
 
-    print(avg_monthly_precip)
+```
 
 ```
 [0.7  0.75 1.85]
@@ -93,13 +97,15 @@ Notice that the output of the one-dimensional **NumPy** array is also contained 
 
 To create a two-dimensional array, you need to specify two sets of brackets `[]`, the outer set that defines the entire array structure and inner sets that define the rows of the individual arrays.
 
-     # Monthly precip for Jan through Mar in 2002 and 2013
-     precip_2002_2013 = np.array([
-         [1.07, 0.44, 1.50],
-         [0.27, 1.13, 1.72]
-     ])
+```
+# Monthly precip for Jan through Mar in 2002 and 2013
+precip_2002_2013 = np.array([
+    [1.07, 0.44, 1.50],
+    [0.27, 1.13, 1.72]
+])
+```
 
-     print(precip_2002_2013)
+print(precip_2002_2013)
 
 ```
 [[1.07 0.44 1.5 ]
