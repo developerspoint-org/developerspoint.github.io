@@ -7,9 +7,9 @@ subtitle: "Blog 3 in Scikit-Learn series"
 description: >-
   `Scikit-learn` is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
 image: >-
-  https://blog.developerspoint.org/assets/img/banner_3.jpeg
+  https://blog.developerspoint.org/assets/img/banner_3.png
 optimized_image: >-
-  https://blog.developerspoint.org/assets/img/banner_3.jpeg
+  https://blog.developerspoint.org/assets/img/banner_3.png
 category: Scikit-Learn
 tags:
   - python
