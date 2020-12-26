@@ -1,5 +1,5 @@
 ---
-date: 2020-12-27 20:00:00
+date: 2020-12-27 23:59:59
 layout: post
 title: Array Creation and Basic Operations on Arrays
 subtitle: "Welcome to our 4th Blog in NumPy Series"
