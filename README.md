@@ -9,10 +9,10 @@
 <hr>
 
 ## Reference
+#### [Contributing Guide](CONTRIBUTING.md)
 #### [Pull Request Guide](.github/PULL_REQUEST_TEMPLATE/pull_request_template.md)
 #### [Bug Report Guide](.github/ISSUE_TEMPLATE/bug_report.md)
-#### [Feature request](.github/ISSUE_TEMPLATE/feature_request.md)
+#### [Feature request Guide](.github/ISSUE_TEMPLATE/feature_request.md)
 #### [Code of Conduct](CODE_OF_CONDUCT.md)
-#### [Contributing Guide](CONTRIBUTING.md)
 #### [GIT Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 #### [LICENSE](LICENSE)
