@@ -1,8 +1,10 @@
-<h1 style='text-decoration: none; color: black;'> Welcome to <a style='text-decoration: none; color: black;' href="https://developerspoint-org.github.io/developerspoint.github.io/">Developers Point Blog</a></h1>
+<h1>Welcome to <a href="https://developerspoint-org.github.io/developerspoint.github.io/">Developers Point Blog</a></h1>
 
-<h6 style='text-decoration: none; color: black;'><a style='text-decoration: none; color: black;' href="https://blog.developerspoint.org/">Website</a></h6>
+<h6><a href="https://blog.developerspoint.org/">Website</a></h6>
 
-<div style="text-align:center"><img src="https://github.com/developerspoint-org/developerspoint.github.io/blob/ravi/assets/img/icons/apple-touch-icon-152x152.png" /></div>
+<p align="center">
+  <img src="https://github.com/developerspoint-org/developerspoint.github.io/blob/ravi/assets/img/icons/apple-touch-icon-152x152.png" />
+</p>
 
 <hr>
 
