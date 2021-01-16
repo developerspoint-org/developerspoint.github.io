@@ -8,7 +8,7 @@ permalink: /about/
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Developers Point" width="200">
 
 
-  <h1 align='center'>ABOUT</h1>
+  <h1 style="text-align: center;">ABOUT</h1>
 
 
             
@@ -21,14 +21,13 @@ Events are an integral aspect, apart from empowering folks to develop their skil
 Developers Point is backed by various programs : Developer Students Club , Microsoft Student Partner,Mozilla Campus Clubs, CodeChef,Explore ML. With the aid of these programs and our diligent efforts we try to help our peers go from an idea to execution on a product/service thus making use of our learning and giving back to the community.
 
          
-<h2 align='center'>VISION</h2>
-                                                 <p align='center'>                   
+<h2 style="text-align: center;">VISION</h2>
+<p style="text-align: center;">                   
 Developers Point as an open Source community which strives to create a conscious tech Eco-system.  
 </p>
 
-<h2 align='center'>MISSION</h2>
-<p align='center'>Empower the community for a social impact.
-</p>
+<h2 style="text-align: center;">MISSION</h2>
+<p style="text-align: center;">Empower the community for a social impact.</p>
 
 
 
