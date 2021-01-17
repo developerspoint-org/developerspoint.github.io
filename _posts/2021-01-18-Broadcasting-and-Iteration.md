@@ -86,7 +86,7 @@ The output of this program would be as follows −
      [ 21. 22. 23.]
      [ 31. 32. 33.]]
 
-![array](https://www.tutorialspoint.com/numpy/images/array.jpg)
+![alt text](/assets/img/broadcasting.jpg)
 
 ## Iterating Over Array
 
