@@ -272,3 +272,9 @@ Its output would be as follows −
 
     Modified array is:
     0:1 5:2 10:3 15:4 20:1 25:2 30:3 35:4 40:1 45:2 50:3 55:4
+
+### Resources
+
+- [NumPy.org](https://numpy.org/doc/stable/user/basics.broadcasting.html)
+
+### Continued in Next Week...
