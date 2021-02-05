@@ -6,9 +6,9 @@ subtitle: "Welcome to our 7th Blog in NumPy Series"
 description: >-
   This Blog will present several examples of using NumPy array manipulation to access data and subarrays, and to split, reshape, and join the arrays.
 image: >-
-  /assets/img/numpy-blog-6.jpg
+  /assets/img/numpy-blog-7.jpg
 optimized_image: >-
-  /assets/img/numpy-blog-6.jpg
+  /assets/img/numpy-blog-7.jpg
 category: numpy
 tags:
   - python
