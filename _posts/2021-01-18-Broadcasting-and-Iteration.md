@@ -1,7 +1,7 @@
 ---
 date: 2021-01-18 23:59:59
 layout: post
-title: BroadCasting and Itearation
+title: BroadCasting and Iteration
 subtitle: "Welcome to our 6th Blog in NumPy Series"
 description: >-
   The term broadcasting refers to the ability of NumPy to treat arrays of different shapes during arithmetic operations. Arithmetic operations on arrays are usually done on corresponding elements.
@@ -21,7 +21,7 @@ paginate: true
 # NumPy Blog - 6
 
 Namaste Readers...🙏🙏
-Last week learnt Indexing and Slicing of NumPy Arrays [Here is the Link for the previous week's Blog in case if you have missed it](https://blog.developerspoint.org/Indexing-And-Slicing-of-NumPy-Arrays/). In this Blog we are going to perceive about......
+Last week we learnt Indexing and Slicing of NumPy Arrays [Here is the Link for the previous week's Blog in case if you have missed it](https://blog.developerspoint.org/Indexing-And-Slicing-of-NumPy-Arrays/). In this Blog we are going to perceive about......
 
 1. Broadcasting
 2. Iterating over ndarrays
