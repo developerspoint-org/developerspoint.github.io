@@ -6,9 +6,9 @@ subtitle: "Welcome to our 8th Blog in NumPy Series"
 description: >-
   This Blog will present several examples of using NumPy array manipulation to Change dimensions,Joining Arrays and splitting arrays
 image: >-
-  /assets/img/numpy-blog-7.jpg
+  /assets/img/numpy-blog-8.jpg
 optimized_image: >-
-  /assets/img/numpy-blog-7.jpg
+  /assets/img/numpy-blog-8.jpg
 category: numpy
 tags:
   - python
